@@ -2,7 +2,12 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: "https://github.com/MorningStarTM/raw-data/raw/main/drug+review+dataset+drugs+com.zip"
-  local_data_file: artifacts/data_ingestion/data.zip
+  source_URL: "https://github.com/MorningStarTM/raw-data/raw/main/drug_review.zip"
+  local_data_file: artifacts/data_ingestion/data_review.zip
   unzip_dir: artifacts/data_ingestion
   
+
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIRED_FILES: ["train", "test", "val", "data_review.zip"]
