@@ -1,8 +1,8 @@
-artifacts_root: artifaccts
+artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
   source_URL: "https://github.com/MorningStarTM/raw-data/raw/main/drug+review+dataset+drugs+com.zip"
-  local_data_file: artifacts/data_imgestion/data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
   
